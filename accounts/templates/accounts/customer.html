@@ -63,10 +63,11 @@
 				<tr>
 					<td>{{order.product}}</td>
 					<td>{{order.product.category}}</td>
-					<td>{{order.product.date_created}}</td>
-					<td>{{order.product.status}}</td>
-					<td><a class="btn btn-sm btn-info" href="">Update</a></td>
-					<td><a class="btn btn-sm btn-danger" href="">Remove</a></td>
+					<td>{{order.date_created}}</td>
+					<td>{{order.status}}</td>
+					<td><a class ="btn btn-sm btn-info" href="{% url 'update_order' order.id %}">Update</a></td>
+					<td><a class ="btn btn-sm btn-danger" href="{% url 'delete_order' order.id %}">Delete</a></td>
+
 				</tr>
 
 				{% endfor %}
