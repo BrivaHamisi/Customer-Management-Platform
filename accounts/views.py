@@ -51,6 +51,11 @@ def logoutUser(request):
 	logout(request)
 	return redirect('login')
 
+def userPage(request):
+	context = {}
+	return render(request, 'accounts/user.html', context)
+
+
 @login_required(login_url='login')
 def home(request):
     orders = Order.objects.all()
