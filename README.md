@@ -18,6 +18,8 @@
 ![Screenshot from 2022-09-18 23-07-39](https://user-images.githubusercontent.com/111923574/190926746-77ba5a01-a8cb-41c2-aae9-6809113ea218.png)
 
 ### The Settings Page
+This is the Settings page with Default  Image
 ![Screenshot from 2022-09-18 23-07-48](https://user-images.githubusercontent.com/111923574/190926750-42912cb8-e2bc-4955-8ce2-796f631de265.png)
 
+This is the Settings Page after the New Image has been added. The User can also customize data and Update it.
 ![Screenshot from 2022-09-18 23-08-34](https://user-images.githubusercontent.com/111923574/190926757-93df6d29-c433-4e27-99ef-89098d34ab9d.png)
